@@ -1,0 +1,25 @@
+.images {
+  img {
+    width: 550px;
+    height: 330px;
+    border-radius: 60px;
+    object-fit: cover;
+  }
+}
+
+.content {
+  width: 40%;
+  h3 {
+    font-size: 30px;
+  }
+  p {
+    font-weight: 100;
+    color: #6d6d6d;
+    font-size: 35px;
+    line-height: 45px;
+  }
+}
+
+.section1 {
+    flex-direction: row-reverse;
+}

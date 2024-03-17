@@ -1,0 +1,6 @@
+<div *ngFor="let section of sectionsData; index as i" class="d-flex gap-5 justify-content-center">
+  <app-home-section
+    [sectionData]="section"
+    [additionalClasses]="'section' + i"
+  ></app-home-section>
+</div>

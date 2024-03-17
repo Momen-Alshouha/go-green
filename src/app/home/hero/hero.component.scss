@@ -1,0 +1,25 @@
+.left {
+  h1 {
+    font-size: 70px;
+    font-weight: bold;
+    span {
+      display: block;
+      color: #01ab12;
+    }
+  }
+}
+
+.hero-text {
+    font-weight: 200;
+    color: #6d6d6d;
+    font-size: 35px;
+    line-height: 45px;
+    width: 77%;
+}
+
+.right {
+  margin-left: auto;
+  img {
+    height: 620px;
+  }
+}

@@ -1,0 +1,18 @@
+.back {
+  background-image: url(../../assets/images/home/rectangle.svg);
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 370px;
+  background-attachment: fixed;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h2 {
+    color: white;
+    font-size: 60px;
+    width: 50%;
+    text-align: center;
+  }
+}

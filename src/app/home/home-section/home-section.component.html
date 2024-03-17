@@ -1,0 +1,12 @@
+<div class="container my-5 d-flex align-items-center justify-content-center gap-5 {{ additionalClasses }}">
+  <div class="images position-relative">
+    <div *ngFor="let image of sectionData.images; index as i">
+      <img [src]="env.homeImagesPath + image" alt="" />
+    </div>
+  </div>
+  <div class="content">
+    <h3>{{ sectionData.title }}</h3>
+    <p>{{ sectionData.text }}</p>
+  </div>
+</div>
+
