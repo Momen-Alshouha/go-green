@@ -1,9 +1,18 @@
-<div
-  class="burger-menu"
-  [class.active]="active"
-  (click)="onBurgerClicked()"
->
+<div class="burger-menu" [class.active]="active" (click)="onBurgerClicked()">
   <div class="burger-container">
     <div class="burger-inner"></div>
   </div>
 </div>
+<ul class="burger-menu-nav-items" [ngClass]="{'appear' : active , 'disappear' : !active}">
+  <li>
+    <a
+      routerLink="/"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      >Home</a
+    >
+  </li>
+  <li><a routerLink="/about" routerLinkActive="active">About</a></li>
+  <li><a routerLink="/contact" routerLinkActive="active">Contact</a></li>
+  <li><a routerLink="/support" routerLinkActive="active">Support</a></li>
+</ul>
