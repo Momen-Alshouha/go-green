@@ -3,6 +3,7 @@ export const environment = {
     imagesPath: 'assets/images/',
     socialIconsPath: 'assets/images/social-icons/',
     homeImagesPath:'assets/images/home/',
-    homeImagesAbout:'assets/images/about/'
+    homeImagesAbout:'assets/images/about/',
+    homeImagesContact:'assets/images/contact/',
   };
   
