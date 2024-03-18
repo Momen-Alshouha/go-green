@@ -1,0 +1,20 @@
+.about-info {
+    h3 {
+        font-weight: 600;
+    }
+    h3,p {
+        margin: 0;
+    }
+    img {
+        background-color: black;
+        border-radius: 10px;
+        width: 83px;
+        height: 83px;
+    }
+    p {
+        font-weight: 100;
+        color: #6d6d6d;
+        font-size: 35px;
+        line-height: 40px;
+    }
+}

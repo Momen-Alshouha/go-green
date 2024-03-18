@@ -1,0 +1,40 @@
+h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.about-section2 {
+    position: relative;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    padding: 330px 0 270px 0;
+    text-align: center;
+    line-height: 60px;
+}
+
+.about-section2::before {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    height: 124px;
+    background-image: url(../../assets/images/about/cloud-down.svg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    left: 0;
+    bottom: 0;
+}
+.about-section2::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    height: 124px;
+    background-image: url(../../assets/images/about/cloud-down.svg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    transform: rotate(180deg);
+    left: 0;
+    top: 0;
+}

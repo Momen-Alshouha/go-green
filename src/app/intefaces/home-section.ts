@@ -1,5 +1,5 @@
 export interface homeSection {
-  images?: string[];
+  images: string[];
   title: string;
   text: string;
 }
