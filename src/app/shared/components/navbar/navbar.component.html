@@ -1,12 +1,15 @@
 <div class="container-fluid">
     <div class="py-md-5 py-3 navbar container">
       <a routerLink="/"><span class="logo">SUSTAINABLE<br>transportation</span></a>
-      <ul class="d-flex m-0 gap-5 nav-items">
+      <ul class="d-none d-md-flex m-0 gap-5 nav-items">
         <li><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a></li>
         <li><a routerLink="/about" routerLinkActive="active">About</a></li>
         <li><a routerLink="/contact" routerLinkActive="active">Contact</a></li>
         <li><a routerLink="/support" routerLinkActive="active">Support</a></li>
       </ul>
+     <div class="d-block d-md-none">
+      <app-burger-menu></app-burger-menu>
+     </div>
     </div>
   </div>
   
