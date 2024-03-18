@@ -1,4 +1,4 @@
-# Angular Informative Website
+# Go Green - Angular Informative Website
 
 This project is an informative website developed using Angular.
 
