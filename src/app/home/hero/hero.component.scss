@@ -2,6 +2,11 @@
   h1 {
     font-size: 70px;
     font-weight: bold;
+
+    @media (max-width: 768px) { 
+      font-size: 45px;
+    }
+
     span {
       display: block;
       color: #01ab12;
@@ -15,6 +20,11 @@
     font-size: 35px;
     line-height: 45px;
     width: 77%;
+    @media (max-width: 768px) { 
+      width: 100%;
+      font-size: 25px;
+      line-height: normal;
+    }
 }
 
 .right {

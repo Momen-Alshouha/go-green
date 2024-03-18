@@ -1,4 +1,4 @@
-<div class="container my-5 d-flex align-items-center justify-content-center gap-5 {{ additionalClasses }}">
+<div class="container my-3 my-md-5 d-flex flex-column flex-md-row align-items-center justify-content-center gap-md-5 gap-2 {{ additionalClasses }}">
   <div class="images position-relative">
     <div *ngFor="let image of sectionData.images; index as i">
       <img [src]="env.homeImagesPath + image" alt="" />

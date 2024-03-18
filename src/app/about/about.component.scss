@@ -1,6 +1,10 @@
 h2 {
     font-size: 45px;
     font-weight: 700;
+    @media (max-width:768px) {
+        font-size: 25px;
+        font-weight: 600;
+    }
 }
 
 .about-section2 {
@@ -11,6 +15,11 @@ h2 {
     padding: 330px 0 270px 0;
     text-align: center;
     line-height: 60px;
+    @media (max-width:768px) {
+        padding: 20px;
+        line-height: normal;
+        font-size: 25px;
+    }
 }
 
 .about-section2::before {
@@ -24,6 +33,9 @@ h2 {
     background-size: 100% auto;
     left: 0;
     bottom: 0;
+    @media (max-width:768px) {
+        display: none;
+    }
 }
 .about-section2::after {
     content: "";
@@ -37,4 +49,7 @@ h2 {
     transform: rotate(180deg);
     left: 0;
     top: 0;
+    @media (max-width:768px) {
+        display: none;
+    }
 }

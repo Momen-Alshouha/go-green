@@ -9,4 +9,9 @@
   font-size: 20px;
   line-height: 45px;
   text-align: left;
+
+  @media (max-width:768px) {
+    font-size: 18px;
+    line-height: normal;
+  }
 }

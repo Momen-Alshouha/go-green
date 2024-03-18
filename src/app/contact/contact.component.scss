@@ -1,6 +1,9 @@
 .title {
   font-size: 38px;
   font-weight: bold;
+  @media (max-width:768px) {
+    font-size: 30px;
+    }
 }
 
 .subtitle {
@@ -8,11 +11,17 @@
   color: #6d6d6d;
   font-size: 30px;
   line-height: 40px;
+  @media (max-width:768px) {
+    line-height: normal;
+    font-size: 24px;
+  }
 }
 
 .contact {
   padding: 20px;
-
+@media (max-width:768px) {
+  padding: 10px;
+}
   &-info {
     overflow: hidden;
     position: relative;
@@ -46,6 +55,9 @@
   img {
     filter: invert(1);
     width: 30px;
+    @media (max-width:768px) {
+      width: 22px;
+    }
   }
   form {
     padding: 30px;
@@ -60,10 +72,17 @@
       height: fit-content;
       padding: 15px 35px;
       border-radius: 10px;
+      @media (max-width:768px) {
+        padding: 10px 35px;
+        margin-top: 10px;
+      }
     }
   }
   input {
     width: 48%;
+    @media (max-width:768px) {
+      width: 100%;
+    }
   }
   textarea {
     width: 100%;
